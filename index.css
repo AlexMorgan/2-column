@@ -2,8 +2,78 @@ body {
   margin: 0;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+header .content {
+  padding: 40px 30px;
+}
+
+header .content img{
+  height: 100px;
+}
+
+header .head-cta {
+  float: right;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+header .head-cta .hdr-involved,
+header .head-cta h1{
+  display: inline;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+header .head-cta h1 span {
+  background: #EEAE00;
+  padding: 12px 15px;
+  margin-right: 5px;
+}
+
+header .head-cta .hdr-involved {
+  margin-left: 20px;
+  background: #EEAE00;
+  border-right: 5px solid #FEDD77;
+  padding: 12px 15px;
+}
+
 .cd-section {
   position: relative;
+}
+
+#home-page,
+#get-involved {
+  background: #081B57;
+  height: 100vh;
+  width: 100%;
+}
+
+#home-page .start-nav {
+  color: #fff !important;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cd-scroll-down {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#home-page .drop-arrow {
+  font-size: 3em;
+  margin-top: -15px;
 }
 
 div#welcome {
