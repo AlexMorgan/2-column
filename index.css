@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+
+.cd-section {
+  position: relative;
+}
+
+div#welcome {
+  height: 100vh;
+  background: black;
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+div#projects {
+  height: 100vh;
+  background: #C95907;
+  display: inline-block;
+  width: 50%;
+  margin-left: -4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.yt-play {
+  background: #EEAE00;
+  padding: 20.5px 25px;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  margin-left: -50px;
+  font-size: 1.5em;
+}
+
+.copy {
+  width: 75%;
+  margin-left: 50px;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: #081b57;
+  margin-bottom: 10px;
+}
+
+.main-copy {
+  font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+  color: #EEAE00;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.main-copy span {
+  color: #FEDD77;
+  border-bottom: 2px solid #FEDD77;
+}
+
+.copy-desc {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-bottom: 5px;
+
+}
+
+.cta {
+  color: #FEDD77;
+  border-bottom: 2px solid #FEDD77;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.copy .ss-play {
+  font-size: .75em;
+  color: #FEDD77;
+}
+
+@media screen and (max-width: 768px) {
+  div#projects,
+  div#welcome {
+    display: block;
+    width: 100%;
+    margin: 0;
+    height: 50vh;
+    position: static;
+  }
+
+  div#welcome {
+    margin-bottom: -20px;
+  }
+}
