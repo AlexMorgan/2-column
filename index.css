@@ -40,7 +40,7 @@ header .head-cta h1 span {
 header .head-cta .hdr-involved {
   margin-left: 20px;
   background: #EEAE00;
-  border-right: 5px solid #FEDD77;
+  border-right: 8px solid #FEDD77;
   padding: 12px 15px;
 }
 
@@ -61,7 +61,7 @@ header .head-cta .hdr-involved {
   position: absolute;
   bottom: 0;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -53px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -166,11 +166,15 @@ div#projects {
     display: block;
     width: 100%;
     margin: 0;
-    height: 50vh;
     position: static;
+  }
+
+  div#projects {
+    height: 75vh;
   }
 
   div#welcome {
     margin-bottom: -20px;
+    height: 25vh;
   }
 }
